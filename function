@@ -6,10 +6,12 @@ function add(a, b) {
     return a + b;
 }
 
-const multiply = (a, b) => a * b;
+const multiply = (a, b) 
+ return a * b;
 
 function fetchData(callback) {
-    setTimeout(() => {
+    setTimeout(() 
+{
         const data = { name: 'Alice', age: 25 };
         callback(data);
     }, 1000);
